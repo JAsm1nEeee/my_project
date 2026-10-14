@@ -1,0 +1,25 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== 环境变量（含 API Key，勿入库）=====
+.env
+
+# ===== 大文件：数据与模型（本地运行使用，不入库）=====
+data/raw/
+data/processed/
+data/fasttext/
+models/
+
+# ===== 模型文件兜底 =====
+*.pkl
+*.bin
+*.pth
+*.safetensors
